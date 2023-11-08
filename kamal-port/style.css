@@ -11,17 +11,7 @@
       overflow-x: hidden;
       scroll-behavior: smooth;
     }
-    @media (max-width: 767px) {
-      .about-content {
-        display: flex;
-        flex-direction: column;
-      }
-    
-      .about-me,
-      .my-skills {
-        width: 100%;
-      }
-    }
+
     h1 {
       font-family: 'Kanit', sans-serif !important;
       font-weight: 700 !important;
@@ -195,11 +185,7 @@
       border-radius: 5px;
     }
 
-    .about-content {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10rem;
-    }
+    
 
     .skill-content {
       display: flex;
@@ -745,7 +731,7 @@
         grid-template-columns: 1fr;
         text-align: center;
       }
-
+      
       .social div {
         border: 1px solid;
         padding: 3px 8px;
@@ -760,6 +746,36 @@
       }
 
     }
+
+    @media screen and (min-width:768px) {
+      .about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10rem;
+      }
+      .about-me{
+       min-width: 450px;
+      }
+      
+    }
+    @media (max-width: 768px) {
+     
+      .about-content {
+        display: flex;
+        flex-direction: column;
+      }
+      .about-me{
+        margin-bottom: 50px;
+      }
+
+    
+      .about-me{
+        width: 100%;
+      }
+    } 
+
+
+    
 
     /* -----------------------Fade animation-------------------- */
 
@@ -836,6 +852,7 @@
       padding: 5rem 1.5rem 2rem;
       background-color: #facf0f;
       color: white;
+      
     }
 
     .container .width {
