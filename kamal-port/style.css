@@ -1,5 +1,20 @@
     @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Eczar&family=Open+Sans&family=Roboto:wght@100&family=Rubik&family=Work+Sans&display=swap');
 
+    /* animation chatbot */
+    #chatbotAnimation {
+      position: fixed;
+      bottom: 0;
+      right: 20px;
+      width: 100px; /* Set the size as needed */
+      height: 100px;
+      z-index: 9999;
+  }
+  
+
+
+    /* animation chatbot */
+
+    
     * {
       box-sizing: border-box;
     }

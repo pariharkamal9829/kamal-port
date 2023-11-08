@@ -16,6 +16,8 @@ var typed = new Typed('#name', {
 
 
 
+
+
 // -------------------Download Button Animation-----------
 var btn = document.querySelector('#downloadBtn')
 
