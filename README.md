@@ -1,6 +1,6 @@
 
 To see website click on the link below:
-https://kamal-port.vercel.app/
+https://pariharkamal9829.github.io/kamal-port/
 # kamal-port 
 
 
